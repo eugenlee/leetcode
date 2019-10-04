@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://leetcode.com/rodneyshag">
+  <a href="https://github.com/eugenlee/leetcode">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>136 efficient LeetCode
+  <br>136 Daily LeetCode
   <br><br>
 </p>
 
