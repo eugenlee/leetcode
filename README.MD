@@ -32,7 +32,8 @@
 | 100  | [Same Tree](https://leetcode.com/problems/same-tree)                                                                                     | [Solution](https://github.com/eugenlee/leetcode/blob/master/Solutions/Same%20Tree.MD)                                                                     |    Easy    |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                        | [Solution](https://github.com/eugenlee/leetcode/blob/master/Solutions/Best%20Time%20to%20Buy%20and%20Sell%20a%20Stock.MD)                                 |    Easy    |
 
-<p align="center">
-  <br> Code from my brain, layout inspired by <a href="https://github.com/RodneyShag">RodneyShag</a>
+<p align="left">
+  <br> Code from my brain, layout inspired by <a href="https://github.com/RodneyShag">RodneyShag</a> 
+  Difficult problems that required a little nudge are * 
   <br><br>
 </p>
