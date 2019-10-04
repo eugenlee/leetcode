@@ -1,0 +1,47 @@
+## First Solution
+
+```java
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> s = new HashSet<>();
+        for (int i = 0; i < nums1.length; i++) {
+            if (!s.contains(nums1[i])) s.add(nums1[i]);
+        }
+        List<Integer> l = new ArrayList<>();
+        for (int j = 0; j < nums2.length; j++) {
+            if (s.contains(nums2[j]) && !l.contains(nums2[j])) l.add(nums2[j]);
+        }
+        int si = l.size();
+        int[] fin = new int[si];
+        for (int k = 0; k < si; k++) {
+            fin[k] = l.get(k);
+        }
+        return fin;
+    }
+}
+```
+
+## Second Solution
+
+```java
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> n1 = new HashSet<>();
+        List<Integer> n2 = new ArrayList<>();
+        for (Integer num:nums1) {
+            n1.add(num);
+        }
+        for (Integer num:nums2) {
+            if (n1.contains(num)) {
+                n2.add(num);
+                n1.remove(num);
+            }
+        }
+        int si = n2.size();
+        int[] fin = new int[si];
+        int i = 0;
+        for (Integer o : n2) fin[i++] = o;
+        return fin;
+        }
+}
+```
