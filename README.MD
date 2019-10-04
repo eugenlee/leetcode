@@ -34,6 +34,6 @@
 
 <p align="left">
   <br> Code from my brain, layout inspired by <a href="https://github.com/RodneyShag">RodneyShag</a>.
-  Difficult problems that required a little nudge are * 
+  Difficult problems that required a little nudge from LeetCode are * 
   <br><br>
 </p>
