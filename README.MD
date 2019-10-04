@@ -2,7 +2,7 @@
   <a href="https://github.com/eugenlee/leetcode">
     <img height=80 src="https://leetcode.com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
   </a>
-  <br>136 Daily LeetCode
+  <br> Daily LeetCode Challenges
   <br><br>
 </p>
 
