@@ -33,8 +33,6 @@
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                        | [Solution](https://github.com/eugenlee/leetcode/blob/master/Solutions/Best%20Time%20to%20Buy%20and%20Sell%20a%20Stock.MD)                                 |    Easy    |
 
 <p align="center">
-  <br> Code from my brain, layout inspired by RodneyShag
-  <a href="https://github.com/RodneyShag">
-  </a>
+  <br> Code from my brain, layout inspired by <a href="https://github.com/RodneyShag">RodneyShag</a>
   <br><br>
 </p>
