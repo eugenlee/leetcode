@@ -1,5 +1,0 @@
-## First Solution
-
-```java
-
-```
