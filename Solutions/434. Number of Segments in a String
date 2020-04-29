@@ -1,0 +1,44 @@
+## First Solution
+
+```java
+class Solution {
+    public int countSegments(String s) {
+        int l = s.length(), i = 0, count = 0;
+        boolean b = false;
+        
+        while (i<l) {
+            Character c = s.charAt(i);
+            if (Character.isLetterOrDigit(c)) {
+                b = true;
+            }
+            else if (b && c.equals(' ')) {
+                count++;
+                b = false;
+            }
+            else if (!b && c.equals(' ')) b = false;
+            else b = true;
+            i++;
+        }
+        return b ? count+1 : count;
+    }
+}
+```
+
+## Second Solution
+
+```java
+class Solution {
+    public int countSegments(String s) {
+        if (s.length() == 0) return 0;
+        int count = s.charAt(0) != ' ' ? 1 : 0;
+        for (int i = 1; i < s.length(); i++)
+        {
+            // count the number of word starts
+            count += s.charAt(i) != ' ' && s.charAt(i-1) == ' ' ? 1 : 0;  
+        }
+        return count;
+        
+    }
+}
+```
+https://leetcode.com/problems/number-of-segments-in-a-string/submissions/
