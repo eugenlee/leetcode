@@ -96,7 +96,7 @@
 | 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)                                                           | [Solution](https://github.com/eugenlee/leetcode/blob/master/Solutions/Merge%20Two%20Binary%20Trees.MD)                                                    |    Easy    |
 
 <p align="left">
-  <br> Code from my brain, layout inspired by <a href="https://github.com/RodneyShag/LeetCode_solutions">RodneyShag</a>.
+  <br> Layout inspired by <a href="https://github.com/RodneyShag/LeetCode_solutions">RodneyShag</a>.
   Difficult problems that required a little nudge from LeetCode are * 
   <br><br>
 </p>
